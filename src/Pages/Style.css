@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap');
+@media only screen and (min-width: 800px) {
+    .row.align-self-center.w-100.main-login {
+        margin: 200px;
+    }
+  }
+
+#root{
+    font-family: 'Quicksand';
+}
+.btn-cu{
+    background-color: rgb(0, 178, 0) !important;
+    color: white !important;
+}
+.text-title{
+    color: rgb(0, 178, 0) !important;
+    font-weight: 700;
+}
+.link-regi{
+    text-decoration: none;
+    color: dimgray;
+    background-color: rgba(235, 172, 0, 0.329) !important;
+    padding: 4px;
+    margin-left: 5px;
+    margin-top: 5px;
+    border-radius: 3px;
+    font-size: 14px;
+}
+.link-regi:hover{
+    color: rgb(0, 178, 0);
+}
+.text-nav{
+    text-decoration: none;
+    align-items: center;
+    cursor: pointer;
+}
+.text-nav p{
+    transition: all 0.4s;
+}
+.text-nav:hover{
+    color: rgb(0, 178, 0);
+    font-weight: bold;
+}
+
+.join.m-4.d-flex {
+    align-items: baseline;
+}
+button.btn.btn-custom.write.px-3{
+    border:1px solid #00b200;
+    color:#00b200;
+}
+.logo.m-4 {
+    align-self: center;
+}
+p.card-text.text-justify.des{
+    text-align: justify;
+    margin-top: 10px;
+}
+
