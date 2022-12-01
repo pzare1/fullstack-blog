@@ -56,4 +56,20 @@ p.card-text.text-justify.des{
     text-align: justify;
     margin-top: 10px;
 }
-
+.text-sss{
+    color: rgb(0, 178, 0);
+}
+.overlay{
+    background: rgb(0,0,0);
+    background: linear-gradient(360deg, rgba(0,0,0,0.2) 60%, rgba(0,0,0,0.4) 70%);  
+}
+.holder{
+    position: relative;
+}
+.holder .overlay{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+}

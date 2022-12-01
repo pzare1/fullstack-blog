@@ -3,6 +3,7 @@ import Nav from '../Components/Nav'
 import Footer from '../Components/Footer'
 import axios from 'axios';
 import BlogSection from './BlogSection';
+import Slider from '../Components/Slider';
 
 
 function Home() {
@@ -18,6 +19,7 @@ function Home() {
     return (
         <>
         <Nav />
+        <Slider food={food}/>
         <BlogSection food={food}/>
         <Footer/>
         </>
