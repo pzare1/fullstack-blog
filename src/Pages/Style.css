@@ -73,3 +73,61 @@ p.card-text.text-justify.des{
     height: 100%;
     width: 100%;
 }
+.img-inside{
+    max-width: 1000px;
+    max-height: 500px;
+
+}
+.img-holder{
+    max-width: 1000px;
+    height: 400px;
+    background-image: url("https://images.unsplash.com/photo-1546069901-ba9599a7e63c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 1px 5px 30px rgba(117, 117, 117, 0.2);
+
+}
+h2.title-inside {
+    font-weight: bold;
+    color: #00B100;
+}
+p.text-justify {
+    text-align: justify;
+    line-height: 35px;
+    color: rgb(129, 129, 129);
+}
+.col-md-4.content-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.col-md-4.content-text p {
+    color: rgb(129, 129, 129);
+    line-height: 30px;
+    text-align: justify;
+}
+@media only screen and (max-width: 600px) {
+    .col-md-4.content-text {
+        margin-top: 40px;
+    }
+  }
+  input::file-selector-button {
+    background-color: rgb(0, 178, 0);
+    border: 1px solid white;
+    border-radius: 10px;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+}
+.col-md-4.custom-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding: 20px;
+    border: 2px solid rgb(0, 178, 0);
+    border-radius: 12px;
+}
+label.ml-2 {
+    margin-left: 5px;
+}
