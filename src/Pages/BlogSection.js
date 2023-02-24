@@ -1,6 +1,8 @@
 import React from 'react'
+import { Link } from "react-router-dom";
 
 function BlogSection({ food }) {
+    console.log(food);
     return (
         <div className="container">
             <div className="row">
@@ -20,7 +22,7 @@ function BlogSection({ food }) {
                                     <i className="fa fa-facebook text-sss m-2"></i><span>{item.strIngredient1}</span>
                                     </small>
                                     <p className="card-text text-justify des">{item.strInstructions.length>140 ? item.strInstructions.substring(0,140): item.strInstructions}</p>
-                                    <a href="#" className="btn btn-cu">Read Recipe</a>
+                                    <Link to={`/post/${item.idMeal}`} className="btn btn-cu">Read Recipe</Link>
                                 </div>
                                 <div className="card-footer text-muted d-flex justify-content-between bg-transparent border-top-0">
                                     <div className="views">

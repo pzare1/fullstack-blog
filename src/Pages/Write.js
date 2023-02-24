@@ -30,16 +30,16 @@ function Write() {
 
                                 <div>
                                     <input type="radio" id="huey" name="drone" value="huey" checked />
-                                    <label forHtml="huey" className="ml-2">Food</label>
+                                    <label className="ml-2">Food</label>
                                 </div>
 
                                 <div>
                                     <input type="radio" id="dewey" name="drone" value="dewey" />
-                                    <label forHtml="dewey" className="ml-2">Work</label>
+                                    <label className="ml-2">Work</label>
                                 </div>
                                 <div>
                                     <input type="radio" id="louie" name="drone" value="louie" />
-                                    <label forHtml="louie" className="ml-2">Sport</label>
+                                    <label className="ml-2">Sport</label>
                                 </div>
                             </fieldset>
                         </div>

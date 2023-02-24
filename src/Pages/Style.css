@@ -47,6 +47,7 @@
 }
 button.btn.btn-custom.write.px-3{
     border:1px solid #00b200;
+    cursor: pointer;
     color:#00b200;
 }
 .logo.m-4 {
